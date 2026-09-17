@@ -1,4 +1,4 @@
-# 📡 FTTH Data Analysis
+# FTTH Data Analysis
 
 Proyecto de análisis y procesamiento de datos operativos de una red FTTH/GPON, desarrollado como una versión demostrativa y anonimizada de procesos de análisis de datos realizados en un entorno profesional.
 
