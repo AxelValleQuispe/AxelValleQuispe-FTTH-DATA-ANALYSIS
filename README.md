@@ -1,14 +1,14 @@
-# 📡 FTTH / GPON Data Analysis
+# FTTH / GPON Data Analysis
 
 Proyecto de **Data Analytics y Business Intelligence** aplicado al análisis operativo de una red FTTH/GPON.
 
 El proyecto combina procesamiento y análisis de datos con **Python** y una solución de visualización interactiva desarrollada en **Power BI**, con el objetivo de identificar patrones de alarmas, comportamiento de la potencia óptica, eventos degradados y puertos con mayor incidencia.
 
-> ⚠️ **Nota:** todos los datos utilizados en este proyecto son ficticios y fueron creados exclusivamente con fines demostrativos. No contienen información real de clientes ni información confidencial.
+> **Nota:** todos los datos utilizados en este proyecto son ficticios y fueron creados exclusivamente con fines demostrativos. No contienen información real de clientes ni información confidencial.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Transformar datos operativos de una red FTTH/GPON en información útil para apoyar el análisis técnico y la identificación de posibles puntos críticos.
 
@@ -25,7 +25,7 @@ El proyecto permite analizar:
 
 ---
 
-## 🏗️ Arquitectura del proyecto
+## Arquitectura del proyecto
 
 El proyecto está organizado en dos capas analíticas:
 
@@ -40,7 +40,7 @@ La arquitectura fue documentada mediante **Archify**, utilizando la estructura r
 
 ---
 
-# 📊 Dashboard Power BI
+## Dashboard Power BI
 
 El dashboard fue diseñado para analizar la red desde una visión general hasta el detalle individual de cada puerto.
 
@@ -99,7 +99,7 @@ Permite analizar:
 
 ---
 
-# 🔍 Hallazgos principales
+## Hallazgos principales
 
 ### Alarmas
 
@@ -137,7 +137,7 @@ Estos puertos representan puntos prioritarios para revisión dentro del escenari
 
 ---
 
-# 🐍 Análisis con Python
+## Análisis con Python
 
 La primera capa del proyecto implementa un flujo reproducible para trabajar con datos FTTH/GPON.
 
@@ -159,7 +159,7 @@ Generación de datasets procesados
 Reportes con Matplotlib
 ```
 
-## Procesamiento de datos
+### Procesamiento de datos
 
 El proyecto realiza:
 
@@ -168,7 +168,7 @@ El proyecto realiza:
 - Identificación de valores nulos.
 - Generación de resúmenes del dataset.
 
-## Análisis de potencia óptica
+### Análisis de potencia óptica
 
 Se calculan estadísticas de potencia por puerto:
 
@@ -179,7 +179,7 @@ Se calculan estadísticas de potencia por puerto:
 
 También se identifican registros por debajo de un umbral demostrativo para revisión de posibles degradaciones.
 
-## Análisis de alarmas
+### Análisis de alarmas
 
 Se generan indicadores sobre:
 
@@ -187,13 +187,13 @@ Se generan indicadores sobre:
 - Cantidad de alarmas por puerto.
 - Distribución de eventos.
 
-## Generación de reportes
+### Generación de reportes
 
 Los resultados procesados se almacenan en archivos CSV y se generan visualizaciones mediante Matplotlib.
 
 ---
 
-# 🧮 Power BI y DAX
+## Power BI y DAX
 
 Se desarrollaron medidas DAX para construir los principales KPIs del dashboard.
 
@@ -264,7 +264,7 @@ CALCULATE(
 
 ---
 
-## 🚦 Clasificación analítica de puertos
+## Clasificación analítica de puertos
 
 Para facilitar la identificación de puntos que requieren atención se definieron los siguientes criterios para este proyecto:
 
@@ -278,7 +278,7 @@ Para facilitar la identificación de puntos que requieren atención se definiero
 
 ---
 
-# 📈 Resultados del análisis Python
+## Resultados del análisis Python
 
 El dataset demostrativo utilizado por el flujo Python contiene inicialmente:
 
@@ -305,7 +305,7 @@ Estos resultados corresponden exclusivamente al dataset ficticio utilizado para 
 
 ---
 
-# 📊 Reportes generados
+## Reportes generados
 
 El procesamiento en Python genera reportes gráficos mediante Matplotlib:
 
@@ -314,7 +314,7 @@ El procesamiento en Python genera reportes gráficos mediante Matplotlib:
 
 ---
 
-# 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 ### Lenguajes y análisis
 
@@ -345,7 +345,7 @@ El procesamiento en Python genera reportes gráficos mediante Matplotlib:
 
 ---
 
-# 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```text
 FTTH-DATA-ANALYSIS/
@@ -387,7 +387,7 @@ FTTH-DATA-ANALYSIS/
 
 ---
 
-# 🎯 ¿Qué demuestra este proyecto?
+## ¿Qué demuestra este proyecto?
 
 Este proyecto demuestra experiencia práctica en:
 
@@ -411,7 +411,7 @@ Este proyecto demuestra experiencia práctica en:
 
 ---
 
-# ⚠️ Disclaimer
+## Disclaimer
 
 Este proyecto utiliza datos **completamente ficticios y anonimizados**.
 
@@ -421,6 +421,6 @@ Los umbrales y criterios utilizados en algunos análisis son demostrativos y fue
 
 ---
 
-## 👤 Portfolio
+## Portfolio
 
 Proyecto desarrollado como parte de mi portafolio de **Data Analytics / Business Intelligence**, con enfoque en análisis de datos operativos, automatización, visualización y toma de decisiones basada en datos.
